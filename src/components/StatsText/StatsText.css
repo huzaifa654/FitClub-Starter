@@ -1,0 +1,17 @@
+.Stats-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.subText {
+    font-weight: 300;
+    color: var(--gray);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    /* align-self: center; */
+}

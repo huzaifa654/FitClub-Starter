@@ -1,0 +1,33 @@
+.Button {
+    border-width: 1px;
+    border-color: var(--orange);
+    background-color: var(--orange);
+    color: white;
+    width: fit-content;
+    padding: 9px;
+    padding-inline: 20px;
+    font-size: 0.8rem;
+    transition: 300ms all;
+}
+
+.unfill {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--orange);
+    color: white;
+    width: fit-content;
+    padding: 9px;
+    padding-inline: 20px;
+    font-size: 0.8rem;
+    transition: 300ms all;
+
+
+}
+
+.Button:hover {
+    cursor: pointer;
+}
+
+.unfill:hover {
+    cursor: pointer;
+}
