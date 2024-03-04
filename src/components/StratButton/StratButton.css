@@ -8,6 +8,7 @@
     padding-inline: 20px;
     font-size: 0.8rem;
     transition: 300ms all;
+    align-items: center;
 }
 
 .unfill {
@@ -30,4 +31,8 @@
 
 .unfill:hover {
     cursor: pointer;
+}
+.strat-button{
+    align-self: center;
+    
 }

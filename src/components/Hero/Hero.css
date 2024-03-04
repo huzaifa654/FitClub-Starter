@@ -106,3 +106,47 @@
     color: white;
     font-size: 1.5rem;
 }
+
+.HeroImage {
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+.hero_image_back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+
+}
+.Calories{
+    display: flex;
+    gap: 3rem;
+    background-color:var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: fit-content;
+    position: absolute;
+    top: 32rem;
+    right: 28rem;
+}
+.Calories-image{
+    width: 3rem;
+}
+.Calories-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.cal1{
+    color: var(--gray);
+}
+.cal2{
+    color: white;
+    font-size: 1.5rem;
+}

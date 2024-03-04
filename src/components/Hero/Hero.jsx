@@ -50,8 +50,15 @@ export default function Hero() {
                     <span className='heartRate'>Heart Rate</span>
                     <span className='rate'> 116 bpm</span>
                 </div>
-                <img src={HeroImage} alt="" />
-                <img src={hero_image_back} alt="" />
+                <img src={HeroImage} alt="" className='HeroImage' />
+                <img src={hero_image_back} alt="" className='hero_image_back' />
+                <div className="Calories">
+                    <img src={Calories} alt="" className='Calories-image' />
+                    <div className='Calories-text'>
+                        <span className='cal1'>Calories Burned</span>
+                        <span className='cal2'>220 kcl</span>
+                    </div>
+                </div>
             </div>
         </div>
     )
